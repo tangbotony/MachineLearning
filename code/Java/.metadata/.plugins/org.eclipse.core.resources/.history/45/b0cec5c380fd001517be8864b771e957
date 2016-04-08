@@ -1,0 +1,21 @@
+package com.tangbo;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		String x1S ="[";
+		String y1S ="[";
+		String x2S ="[";
+		String y2S ="[";
+		for(int i=0;i<30;i++)
+		{
+			double x1 = Math.random()*4;
+			double y1 = Math.random()*4;
+			if((x1 - 2) * (x1 - 2) + (y1 - 2) * (y1 - 2) - 4 < 0 && (x1 - 2) * (x1 - 2) + (y1 - 2) * (y1 - 2) - 1 > 0) 
+			{
+			
+			}
+		}
+	}
+}
